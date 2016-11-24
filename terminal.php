@@ -20,7 +20,7 @@ $PASSWORD = 'password';
 // Example: $ACCOUNTS = array('user1' => 'password1', 'user2' => 'password2');
 $ACCOUNTS = array();
 
-// Home directory (absolute or relative path)
+// Home directory (absolute or relative path). If not specified it will automatically go to the directory in which the website is deployed
 $HOME_DIRECTORY = '';
 
 // Code below is automatically generated from different components
