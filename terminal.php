@@ -1,7 +1,5 @@
 <?php
-// Web Console v0.9.5 (2014-02-18)
-// (c) 2007-2014 Coderico (http://www.coderico.com)
-//SSH terminal made by Nickolay Kovalev and login compononent and page made by Anam Hira
+
 $username = "username";
 $password = "password";
 // Example: $USER = 'user'; $PASSWORD = 'password';
