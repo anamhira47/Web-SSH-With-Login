@@ -9,7 +9,7 @@ header('Location:/error.php');
   
 }
 else{
-// Single-user credentials
+// Enter you terminal username and password and if you would like multi account compatibility you must change both the login page and the terminal.php file (this page)
 // Example: $USER = 'user'; $PASSWORD = 'password';
 $USER = 'root';
 $PASSWORD = 'password';
