@@ -1,7 +1,5 @@
 <?php
-// Web Console v0.9.5 (2014-02-18)
-// (c) 2007-2014 Coderico (http://www.coderico.com)
-//SSH terminal made by Nickolay Kovalev and login compononent and page made by Anam Hira
+
 $username = "username";
 $password = "password";
 // Example: $USER = 'user'; $PASSWORD = 'password';
@@ -11,7 +9,7 @@ header('Location:/error.php');
   
 }
 else{
-// Single-user credentials
+// Enter you terminal username and password and if you would like multi account compatibility you must change both the login page and the terminal.php file (this page)
 // Example: $USER = 'user'; $PASSWORD = 'password';
 $USER = 'root';
 $PASSWORD = 'password';
@@ -20,7 +18,7 @@ $PASSWORD = 'password';
 // Example: $ACCOUNTS = array('user1' => 'password1', 'user2' => 'password2');
 $ACCOUNTS = array();
 
-// Home directory (absolute or relative path)
+// Home directory (absolute or relative path). If not specified it will automatically go to the directory in which the website is deployed
 $HOME_DIRECTORY = '';
 
 // Code below is automatically generated from different components
